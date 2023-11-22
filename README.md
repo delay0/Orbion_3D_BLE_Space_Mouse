@@ -6,7 +6,9 @@ This is an Orbion firmware modified for ESP32 that uses a Bluetooth Low Energy (
 USB connection is not supported in this version!
 All functions of the firmware version mentioned above are included.
 All required libraries are included and configured for this project.
-Tested with Espressif ESP32 firmware version 2.0 for the Arduino IDE v1.8.19 / v2.x
+Tested with Espressif ESP32 firmware version 2.0.0/2.0.13 for the Arduino IDE v1.8.19 / v2.x
+
+Tip: Use fresh Sketchbook Folder for this Project, to prevent Librarie Versions conflicts.
 
 ## This version is an "as is" version. No support or update planned.
 
