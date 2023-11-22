@@ -1,3 +1,37 @@
+# Orbion 3D BLE Space Mouse
+
+This is an Orbion firmware modified for ESP32 that uses a Bluetooth Low Energy (BLE) connection.
+USB connection is not supported in this version!
+All functions of the firmware version mentioned above are included.
+All required libraries are included and configured for this project.
+Tested with Espressif ESP32 firmware version 2.0 for the Arduino IDE v1.8.19 / v2.x
+
+## This version is an "as is" version. No support or update planned.
+
+
+### BLE Libs used:
+
+- BLE Combo Lib https://github.com/Cemu0/ESP32-BLE-Combo
+- with nimBLE https://github.com/h2zero/NimBLE-Arduino
+
+
+### Basic Firmware 0.26.4 Bugfix:
+- Oled boot animation
+- Scroll() timer
+
+### Additions:
+- OLED contrast reduced to prevent burn-in
+- Neopixel boot animation
+- BLE added, USBHID no longer exists
+- Various new settings in Settings.h
+- EEPROM support for ESP32
+
+
+
+
+## Original readme
+
+
 # Orbion The OpenSource 3D Space Mouse
 
 [![Stars](https://img.shields.io/github/stars/FaqT0tum/Orbion_3D_Space_Mouse.svg)](#)
