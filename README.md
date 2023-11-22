@@ -1,5 +1,7 @@
 # Orbion 3D BLE Space Mouse
 
+Firmware download https://github.com/delay0/Orbion_3D_BLE_Space_Mouse/releases 
+
 This is an Orbion firmware modified for ESP32 that uses a Bluetooth Low Energy (BLE) connection.
 USB connection is not supported in this version!
 All functions of the firmware version mentioned above are included.
