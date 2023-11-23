@@ -9,6 +9,7 @@ All required libraries are included and configured for this project.
 Tested with Espressif ESP32 firmware version 2.0.0/2.0.13 for the Arduino IDE v1.8.19 / v2.x
 
 Tip: Use fresh Sketchbook Folder for this Project, to prevent Librarie Versions conflicts.
+     Oled 1306 is preconfigured. Switching to SH110X in settings.h
 
 ## This version is an "as is" version. No support or update planned.
 
@@ -23,8 +24,9 @@ Tip: Use fresh Sketchbook Folder for this Project, to prevent Librarie Versions 
 - Oled boot animation
 - Scroll() timer
 
-### Additions:
+### Changes:
 - OLED contrast reduced to prevent burn-in
+- OLED stays off after waking up from standby. (Code area is only commented out.)
 - Neopixel boot animation
 - BLE added, USBHID no longer exists
 - Various new settings in Settings.h
